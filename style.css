@@ -86,3 +86,18 @@ textarea {
     color: #477f8f;
     text-align: center;
 }
+#footerspace{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    opacity: 60%;
+    float: left;
+    background-color:white;
+    margin-top: 30px;
+}
+#footer {
+    color: #477f8f;
+    font-size: 20px;
+    font-family: 'Londrina Shadow';
+    padding-left: 45%;
+}
