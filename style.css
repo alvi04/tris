@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+body {
+    background-image: url("img/futuristic.jpg");
+}
+
+#tit {
+    padding: 0px 600px;
+    margin-top: 0px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Londrina Shadow', cursive;
+}
+
+img {
+    width: 150px;
+    height:150px;
+    opacity:80%;
+}
+
+#cover {
+    padding: 20px 100px 20px 300px;
+    display: grid;
+    grid-template-columns: 155px 155px 155px;
+    grid-template-rows: 155px 155px 155px;
+    opacity: 60%;
+    float: left;
+}
+
+#coverpunti {
+    margin:20px 80px 20px 10px;
+    width: 225px;
+    height: 470px;
+    display: grid;
+    opacity: 60%;
+    float: left;
+    background-color:white;
+}
+
+.button {
+    margin-left: 300px;
+    background-color: #477f8f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#buttons {
+    float:left;
+    margin-left:500px;
+}
+
+textarea {
+    text-align: center;
+    padding: 100px 20px 100px 20px;
+    font-size:20px;
+}
+#punti1{
+    color: black;
+    padding:50px;
+}
+#punti2 {
+    padding:50px;
+    color: red;
+}
+#pari{
+    color:#477f8f;
+    padding:50px;
+}
+
+#risultato{
+    margin:0px 100px 5px 300px;
+    width: 800px;
+    height: 80px;
+    display: grid;
+    opacity: 60%;
+    float: center;
+    background-color:white;
+    color: #477f8f;
+    text-align: center;
+}

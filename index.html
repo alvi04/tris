@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script> <!-- foglio javascript-->
+    <link rel="icon" type="image/x-icon" href="img/favicontris.ico">
+    <title>Tris Game</title>
+
+
+</head>
+
+<body>
+
+    <h1 id="tit">TRIS</h1>
+
+    <div id="risultato">
+        <h1 id="printrisultato"> Welcome! </h1>                                  <!-- Stampa punti del player 1-->
+    </div>
+
+    <div id="cover">
+        <button id="0" onclick="callf(0)"></button>              <!-- Cella 0-->
+        <button id="1" onclick="callf(1)"></button>              <!-- Cella 1-->
+        <button id="2" onclick="callf(2)"></button>              <!-- Cella 2-->
+        <button id="3" onclick="callf(3)"></button>              <!-- Cella 3-->
+        <button id="4" onclick="callf(4)"></button>              <!-- Cella 4-->
+        <button id="5" onclick="callf(5)"></button>              <!-- Cella 5-->
+        <button id="6" onclick="callf(6)"></button>              <!-- Cella 6-->
+        <button id="7" onclick="callf(7)"></button>              <!-- Cella 7-->
+        <button id="8" onclick="callf(8)"></button>              <!-- Cella 8-->
+    </div>
+
+
+    <div id="coverpunti">                                       <!-- Cella della stampa dei punteggi-->
+        <h2 id="punti1"> </h2>                                  <!-- Stampa punti del player 1-->
+        <h2 id="punti2"> </h2>                                  <!-- Stampa punti del player 2-->
+        <h2 id="pari"> </h2>                                    <!-- Stampa punti di pareggita-->
+    </div>
+
+    <div id="buttons">
+        <button class="button" onclick="resetvalori()">Continua il gioco</button>                          
+        <button class="button" onclick="resetall()">Reset gioco</button>
+
+    </div>
+
+
+</body>
+
+</html>
